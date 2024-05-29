@@ -1,4 +1,4 @@
-# Skin-Disease-Classification
+# Skin-Disease-Classification and Progression using CNN and GAN
 This is a project of mine where I tried to classifiy Skin lesions of 7 broad labels(HAM 10000 ISIC 2018 benchmark dataset)
 
 # Introduction
@@ -6,10 +6,11 @@ This is a project of mine where I tried to classifiy Skin lesions of 7 broad lab
 This was developed by Me and My friend Bharath Kumar. It is a fine tuned MobileNet CNN. The main challenges were the unbalanced dataset and the small amount of data. We used data augmentation to reduce the class imbalance and in so doing get categorical accuracy scores that were not heavily skewed by a single majority class.
 
 MobileNet’s small size and speed makes it ideal for web deployment. It’s also a joy to train.
+We also tried to Simulate the growth and progression of the disease using a Generative Adversial Network. 
 
 # What is the objective?
 
-Create an online tool that can tell doctors and Patients, the three highest probability diagnoses for a given skin disease. This will help them quickly identify high priority patients and speed up their workflow. The app should produce a result in less than 3 seconds.
+Create an online tool that can tell doctors and Patients, the three highest probability diagnoses for a given skin disease. This will help them quickly identify high priority patients and speed up their workflow. The app should produce a result in less than 3 seconds. We also aimed to give the users a glimpse of what the disease might look like in the future
 
 # Dataset 
 https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
